@@ -15,12 +15,12 @@ namespace hata_yonetimi
 
             catch(Exception ex)
             {
-                console.WriteLine("Hata : " + ex.Message.ToString());
+                Console.WriteLine("Hata : " + ex.Message.ToString());
             }
 
             //finally
             //{
-            //    console.WriteLine("islem tamamlandı.");
+            //    Console.WriteLine("islem tamamlandı.");
             //}
 
             try
@@ -32,25 +32,25 @@ namespace hata_yonetimi
 
             catch(ArgumentNullException ex)
             {
-                console.WriteLine("bos deger girdiniz");
-                console.WriteLine(ex);
+                Console.WriteLine("bos deger girdiniz");
+                Console.WriteLine(ex);
             }
 
             catch(FormatException ex)
             {
-                console.WriteLine("veri tipi uygun degil");
-                console.WriteLine(ex); 
+                Console.WriteLine("veri tipi uygun degil");
+                Console.WriteLine(ex); 
             }
 
             catch(OverflowException ex)
             {
-                console.WriteLine("cok kucuk yada cok buyuk bir deger girdiniz");
-                console.WriteLine(ex);
+                Console.WriteLine("cok kucuk yada cok buyuk bir deger girdiniz");
+                Console.WriteLine(ex);
             }
 
             finally
             {
-                console.WriteLine("islem basariyla tamamlanmıstır");
+                Console.WriteLine("islem basariyla tamamlanmıstır");
             }
         }
     }

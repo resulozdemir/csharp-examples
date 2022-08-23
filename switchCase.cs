@@ -10,43 +10,43 @@ namespace switchCase
 
             switch (ay)
             {
-                case 1: console.WriteLine("ocak ayi");
+                case 1: Console.WriteLine("ocak ayi");
                 break;
 
-                case 2: console.WriteLine("subat ayi");
+                case 2: Console.WriteLine("subat ayi");
                 break;
 
-                case 3: console.WriteLine("mart ayi");
+                case 3: Console.WriteLine("mart ayi");
                 break;
 
-                case 4: console.WriteLine("nisan ayi");
+                case 4: Console.WriteLine("nisan ayi");
                 break;
 
-                case 5: console.WriteLine("mayis ayi");
+                case 5: Console.WriteLine("mayis ayi");
                 break;
 
-                case 6: console.WriteLine("haziran ayi");
+                case 6: Console.WriteLine("haziran ayi");
                 break;
 
-                case 7: console.WriteLine("temmuz ayi");
+                case 7: Console.WriteLine("temmuz ayi");
                 break;
 
-                case 8: console.WriteLine("agustos ayi");
+                case 8: Console.WriteLine("agustos ayi");
                 break;
 
-                case 9: console.WriteLine("eylul ayi");
+                case 9: Console.WriteLine("eylul ayi");
                 break;
 
-                case 10: console.WriteLine("ekim ayi");
+                case 10: Console.WriteLine("ekim ayi");
                 break;
 
-                case 11: console.WriteLine("kasim ayi");
+                case 11: Console.WriteLine("kasim ayi");
                 break;
                 
-                case 12: console.WriteLine("aralik ayi");
+                case 12: Console.WriteLine("aralik ayi");
                 break;
 
-                default: console.WriteLine("islem basari ile gerceklesti");
+                default: Console.WriteLine("islem basari ile gerceklesti");
                 break;
             }
 
@@ -55,31 +55,31 @@ namespace switchCase
                 case 12:
                 case 1:
                 case 2:
-                console.WriteLine("kis ayindasiniz");
+                Console.WriteLine("kis ayindasiniz");
                 break;
 
                 case 3:
                 case 4:
                 case 5:
-                console.WriteLine("ilkbahar ayindasiniz");
+                Console.WriteLine("ilkbahar ayindasiniz");
                 break;
 
                 case 6:
                 case 7:
                 case 8:
-                console.WriteLine("yaz ayindasiniz");
+                Console.WriteLine("yaz ayindasiniz");
                 break;
 
                 case 9:
                 case 10:
                 case 11:
-                console.WriteLine("sonbahar ayindasiniz");
+                Console.WriteLine("sonbahar ayindasiniz");
                 break;
 
 
 
 
-                default: console.WriteLine("islem basari ile gerceklesti");
+                default: Console.WriteLine("islem basari ile gerceklesti");
                 break;
             }
 
