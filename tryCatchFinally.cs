@@ -8,7 +8,7 @@ namespace hata_yonetimi
         {
             try
             {
-                Console.WriteLine("Bir sayi giriniz:")
+                Console.WriteLine("Bir sayi giriniz:");
                 int sayi = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Girmis oldugunuz sayi : " + sayi);
             }
