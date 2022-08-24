@@ -31,7 +31,7 @@ namespace diziler
 
             for(int i=0;i<diziUzunlugu;i++)
             {
-                Console.Write("Lutfen"+ i+1 +"sayısını giriniz :");
+                Console.Write("Lutfen {0}. sayısını giriniz :", i+1);
                 sayiDizisi[i]=Convert.ToInt32(Console.ReadLine());
             }
 
