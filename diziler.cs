@@ -1,44 +1,51 @@
 using System;
 
-namespace Diziler // Note: actual namespace depends on the project name.
+namespace diziler
 {
-    class Program
+    class program
     {
         static void Main(string[] args)
         {
-            string[] renkler = new String[5];
+            //dizi tanımlama
+            string[] renkler = new string[5];
 
-            string[] hayvanlar = {"kedi", "köpek", "kuş", "maymun"};
+            string[] hayvanlar = {"kedi","köpek","kuş","maymun"};
 
             int[] dizi;
             dizi = new int[5];
 
-            //Değer atama
+            //dizilere değer atama ve erişim
+
             renkler[0] = "mavi";
             dizi[3] = 10;
-
+            
             Console.WriteLine(hayvanlar[1]);
             Console.WriteLine(dizi[3]);
-            Console.WriteLine(renkler[0]);
-            
-            //Döngülerle diziler
-            //Klavyeden girilen n tane sayının ortalamasını alan program
-            Console.WriteLine("Bir sayı giriniz:");
-            int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(hayvanlar[0]);
 
-            int[] sayi_Dizisi = new int[n];
-            for (int i = 0; i < n; i++)
+            //döngüler ile dizi kullanımı
+            //klavyeden girilen n tane sayının ortalamasını hesaplayan program
+            Console.WriteLine("dizinin eleman sayısını giriniz : ");
+            int diziUzunlugu = Convert.ToInt32(Console.ReadLine());
+            int[] sayiDizisi = new int[diziUzunlugu];
+
+            for(int i=0;i<diziUzunlugu;i++)
             {
-                Console.Write("Lütfen {0}. elemanı giriniz:", i+1);
-                sayi_Dizisi[i] = int.Parse(Console.ReadLine());
+                Console.Write("Lutfen"+ i+1 +"sayısını giriniz :");
+                sayiDizisi[i]=Convert.ToInt32(Console.ReadLine());
             }
 
             int toplam = 0;
-            foreach (var item in sayi_Dizisi)
-                toplam += item;
+            foreach (var sayi in sayiDizisi)
+            {
+                toplam += sayi;
+            }
 
-            Console.WriteLine("Ortalama = "+ (float)toplam/n);
+            Console.WriteLine("Ortalama : " +toplam/diziUzunlugu);
+
 
         }
+
+
     }
 }
