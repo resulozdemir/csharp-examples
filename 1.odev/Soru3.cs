@@ -6,6 +6,9 @@ namespace Soru3
     {
         static void Main(string[] args)
         {
+            
+            //Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin (n). Sonrasında kullanıcıdan n adet kelime girmesi isteyin. Kullanıcının girişini yaptığı kelimeleri sondan başa doğru console'a yazdırın.
+
 
             Console.WriteLine("lutfen bir sayi giriniz : ");
             int n = Convert.ToInt32(Console.ReadLine());

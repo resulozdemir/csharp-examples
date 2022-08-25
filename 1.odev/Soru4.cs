@@ -6,6 +6,9 @@ namespace Soru4
     {
         static void Main(string[] args)
         {
+            
+            //Bir konsol uygulamasında kullanıcıdan bir cümle yazması isteyin. Cümledeki toplam kelime ve harf sayısını console'a yazdırın.
+
 
             Console.WriteLine("lutfen bir cumle giriniz : ");
             string cumle = Console.ReadLine();
