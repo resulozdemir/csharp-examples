@@ -1,6 +1,6 @@
 using System;
 
-namespace sınıfKavramı
+namespace kurucuMetotlar
 {
     class program
     {
