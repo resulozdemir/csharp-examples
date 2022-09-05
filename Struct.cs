@@ -17,12 +17,6 @@ namespace yapi
 
             Console.WriteLine("dikdörtgenin alani : "+dikdörtgen_Struct.AlanHesapla());
 
-
-
-
-
-
-
         }
 
         class Dikdörtgen
