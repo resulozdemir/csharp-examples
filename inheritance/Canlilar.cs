@@ -1,6 +1,6 @@
 namespace inheritance
 {
-    public class Canlilar
+    public class Canlilar //    bir sinifin baska sınıflar tarafından turetilmesini kalıtım verilmesini engellemek istiyorsan sealed anahtar kelimesi kullanılır publicten sonra classdan once
     {
         protected void Beslenme()
         {
@@ -15,6 +15,11 @@ namespace inheritance
         protected void Bosaltim()
         {
             Console.WriteLine("Canlilar bosaltım yapar");
+        }
+
+        public virtual void UyaranlaraTepki()
+        {
+            Console.WriteLine("canlilar uyarilara tepki verir");
         }
     }
 }

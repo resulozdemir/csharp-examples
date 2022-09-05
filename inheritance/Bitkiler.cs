@@ -6,16 +6,22 @@ namespace inheritance
         {
             Console.WriteLine("bitkiler fotosentez yapar");
         }
+        public override void UyaranlaraTepki()
+        {
+            //base.UyaranlaraTepki();
+            Console.WriteLine("bitkiler gunese tepki verir");
+        }
     }
 
     public class TohumluBitkiler:Bitkiler
     {
-        public TohumluBitkiler()
+        public TohumluBitkiler() //default consturactorun icerisine bu sekilde yazarsan her yeni nesne olusturmada cagrılır
         {
             base.FotosentezYapmak();
             base.Beslenme();
             base.Bosaltim();
             base.Solunum();
+            base.UyaranlaraTepki();
         }
 
         public void TohumlaCogalma()
